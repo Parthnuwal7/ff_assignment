@@ -129,7 +129,7 @@ I approached this problem scientifically — testing hypotheses one by one, usin
 **Test:** Compare absolute magnitude of price moves across Data buckets
 
 **Result:**
-| ΔData Bucket | Mean |ΔPrice[t+1]| | Median |ΔPrice[t+1]| |
+| ΔData Bucket | Mean |ΔPrice[t+1]|   | Median |ΔPrice[t+1]|   |
 |--------------|----------------------|------------------------|
 | Bottom 10%   | ~40                  | ~30                    |
 | Middle 80%   | ~20                  | ~15                    |
