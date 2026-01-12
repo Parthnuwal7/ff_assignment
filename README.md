@@ -6,6 +6,12 @@ This project investigates the relationship between a provided `Data` signal and 
 
 **Note:** The `Data` signal does **not** predict price direction or level. It predicts **volatility magnitude**.
 
+While this model cannot tell you which direction the price will move, it tells you how much it might move. This has real applications:
+
+Position Sizing: On high-volatility days (extreme ΔData), reduce position size to manage risk
+Options Pricing: Higher expected magnitude → higher option premium
+Stop-Loss Placement: Wider stops on volatile days, tighter on calm days
+
 ---
 
 ## Key Findings (TL;DR)
